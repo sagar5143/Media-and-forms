@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media and Forms Q.3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        video, audio {
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h3>3.Modify the previous assignment so that the audio and video play automatically as the page is loaded and they should play infinitely </h3>
+
+    <h2>Video playback</h2>
+
+    <video controls autoplay loop>
+    <source src="Video.mp4">
+    <source src="Video.webm">
+    Your browser does not support to play video.
+    </video>
+
+
+    <h2>Audio playback</h2>
+
+    <audio controls autoplay loop>
+    <source src="audio.mp3">
+    <source src="audio.ogg">
+    Your browser does not support to play video.
+    </audio>
+</body>
+</html>

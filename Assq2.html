@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media and Forms Q.2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        video, audio {
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+
+</head>
+<body>
+    <h3>2.Use video and audio tags to display video and audio with the playback,audio controls</h3>
+
+    <h2>Video playback</h2>
+
+    <video controls>
+    <source src="Video.mp4" controls >
+    <source src="Video.webm" controls >
+    Your browser does not support to play video.
+    </video>
+
+
+    <h2>Audio playback</h2>
+
+    <audio controls>
+    <source src="audio.mp3" controls>
+    <source src="audio.ogg" controls>
+    Your browser does not support to play video.
+    </audio>
+</body>
+</html>
